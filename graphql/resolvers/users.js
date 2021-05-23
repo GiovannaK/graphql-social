@@ -12,7 +12,6 @@ function generateToken(user){
     }, process.env.TOKEN_SECRET, {expiresIn: '1h'});
 }
 
-
 module.exports = {
     Mutation: {
         async login(_, {username, password}){
