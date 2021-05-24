@@ -13,7 +13,7 @@ const PostSchema = new Schema({
     ],
     likes: [
         {
-            usernames: String,
+            username: String,
             createdAt: String,
         }
     ],
