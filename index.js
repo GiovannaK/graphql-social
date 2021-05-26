@@ -8,6 +8,7 @@ const pubsub = new PubSub();
 
 connectDB();
 
+
 const server = new ApolloServer({
     typeDefs,
     resolvers,
